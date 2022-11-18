@@ -1,0 +1,1 @@
+<center><p>Copyright &copy; Reserved By Uburezi Iwacu 2022.</p></center>
