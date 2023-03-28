@@ -17,7 +17,13 @@ session_start();
 		<div id="menu">
 			<h3><u>Login Form</u></h3>
         </div>
-		<div id="content">
+		<form action="" method="POST">
+        <table border="0">
+				<tr><td>UserName:</td><td><input type="text" name="un"></td></tr>
+				<tr><td>Password:</td><td><input type="password" name="pw"></td></tr>
+				<tr><td></td><td><input type="submit" name="loginbtn" value="Login"></td></tr>
+		</table>
+    </form>
 		
 		<?php
 		if (isset($_POST["loginbtn"])) {
